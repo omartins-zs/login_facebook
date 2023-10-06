@@ -4,6 +4,7 @@
     --color-gray-dark: #dddfe2;
     --color-dark: #1d2129;
     --color-blue: #1b74e4;
+    --color-green: #42b72a;
 }
 
 body {
@@ -91,4 +92,13 @@ hr {
 
 p {
     text-align: center;
+}
+
+.btn-center {
+    background-color: var(--color-blue);
+}
+
+.btn-create-account {
+    background-color: var(--color-green);
+    width: auto;
 }
