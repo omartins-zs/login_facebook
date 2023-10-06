@@ -4,7 +4,9 @@
     --color-gray-dark: #dddfe2;
     --color-dark: #1d2129;
     --color-blue: #1b74e4;
+    --color-blue-dark: #166fe5;
     --color-green: #42b72a;
+    --color-green-dark: #36a420;
 }
 
 body {
@@ -73,6 +75,15 @@ body {
     width: 100%;
     font-size: 1.1rem;
     transition: .2s;
+    cursor: pointer;
+}
+
+.btn-enter:hover {
+    background-color: var(--color-blue-dark);
+}
+
+.btn-create-account:hover {
+    background-color: var(--color-green-dark);
 }
 
 a {
