@@ -11,3 +11,19 @@ body {
     align-items: center;
     height: 90vh;
 }
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vh;
+}
+
+.content-info {
+    width: 37.5rem;
+}
+
+.content-login {
+    width: 21.875rem;
+}
