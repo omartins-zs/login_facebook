@@ -1,0 +1,13 @@
+:root {
+    --color-white: white;
+    --color-gray: #f0f2f5;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
