@@ -1,6 +1,8 @@
 :root {
     --color-white: white;
     --color-gray: #f0f2f5;
+    --color-gray-dark: #dddfe2;
+    --color-dark: #d2129;
 }
 
 body {
@@ -43,4 +45,15 @@ body {
     border: none;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.inputs {
+    padding: 15px;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px solid var(--color-gray-dark);
+    outline: none;
+    width: 90%;
+    font-size: 17px;
+    color: var(--color-dark);
 }
