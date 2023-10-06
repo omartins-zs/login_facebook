@@ -26,4 +26,8 @@ body {
 
 .content-login {
     width: 21.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
