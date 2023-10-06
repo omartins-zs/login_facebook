@@ -2,7 +2,8 @@
     --color-white: white;
     --color-gray: #f0f2f5;
     --color-gray-dark: #dddfe2;
-    --color-dark: #d2129;
+    --color-dark: #1d2129;
+    --color-blue: #1b74e4;
 }
 
 body {
@@ -56,4 +57,19 @@ body {
     width: 90%;
     font-size: 17px;
     color: var(--color-dark);
+}
+
+.inputs:focus {
+    border-color: var(--color-blue);
+    box-shadow: 0 0 0 2px var(--color-gray-dark);
+}
+
+.btn {
+    padding: 15px;
+    border: none;
+    color: var(--color-white);
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.1rem;
+    transition: .2s;
 }
