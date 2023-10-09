@@ -23,7 +23,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 70vh;
+    width: 70vw;
 }
 
 .content-info {
@@ -78,12 +78,21 @@ body {
     cursor: pointer;
 }
 
-.btn-enter:hover {
-    background-color: var(--color-blue-dark);
+.btn-create-account {
+    background-color: var(--color-green);
+    width: auto;
 }
 
 .btn-create-account:hover {
     background-color: var(--color-green-dark);
+}
+
+.btn-enter {
+    background-color: var(--color-blue);
+}
+
+.btn-enter:hover {
+    background-color: var(--color-blue-dark);
 }
 
 a {
@@ -105,14 +114,6 @@ p {
     text-align: center;
 }
 
-.btn-center {
-    background-color: var(--color-blue);
-}
-
-.btn-create-account {
-    background-color: var(--color-green);
-    width: auto;
-}
 
 h1 {
     color: var(--color-blue);
